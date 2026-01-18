@@ -21,11 +21,11 @@ do
 
     if [ -f "$FILE" ]; then
         TNUM=$(printf "^%02d - " $i)
-                NAME=$(grep "$TNUM" $TRACKS)
+        NAME=$(grep "$TNUM" $TRACKS)
 
-                NEW_FILE=$(printf "$NAME"."$TYPE")
-
+        NEW_FILE=$(printf "$NAME"."$TYPE")
         #echo $NEW_FILE
+
         echo "renaming '$FILE' to '$NEW_FILE'"
         mv "$FILE" "$NEW_FILE"
     else
