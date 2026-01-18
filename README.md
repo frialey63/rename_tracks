@@ -1,6 +1,6 @@
 # rename_tracks
 A simple bash script to simplfy the renaming of tracks for a ripped unknown album.
-Because sometimes an album may be unknown to all internet CD databases :-(
+Because sometimes an album may be unknown to CDDB :-(
 
 Usage
 
